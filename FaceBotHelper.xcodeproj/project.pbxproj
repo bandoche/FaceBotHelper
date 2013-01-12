@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B174BF6A16A142EF0084F0EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B174BF6916A142EF0084F0EC /* Cocoa.framework */; };
+		B174BF7416A142EF0084F0EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B174BF7216A142EF0084F0EC /* InfoPlist.strings */; };
+		B174BF7616A142EF0084F0EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BF7516A142EF0084F0EC /* main.m */; };
+		B174BF7A16A142EF0084F0EC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B174BF7816A142EF0084F0EC /* Credits.rtf */; };
+		B174BF7D16A142EF0084F0EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BF7C16A142EF0084F0EC /* AppDelegate.m */; };
+		B174BF8016A142EF0084F0EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B174BF7E16A142EF0084F0EC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B174BF6516A142EF0084F0EC /* FaceBotHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBotHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B174BF6916A142EF0084F0EC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B174BF6C16A142EF0084F0EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B174BF6D16A142EF0084F0EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B174BF6E16A142EF0084F0EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B174BF7116A142EF0084F0EC /* FaceBotHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBotHelper-Info.plist"; sourceTree = "<group>"; };
+		B174BF7316A142EF0084F0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B174BF7516A142EF0084F0EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B174BF7716A142EF0084F0EC /* FaceBotHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceBotHelper-Prefix.pch"; sourceTree = "<group>"; };
+		B174BF7916A142EF0084F0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B174BF7B16A142EF0084F0EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B174BF7C16A142EF0084F0EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B174BF7F16A142EF0084F0EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B174BF6216A142EF0084F0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B174BF6A16A142EF0084F0EC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B174BF5A16A142EF0084F0EC = {
+			isa = PBXGroup;
+			children = (
+				B174BF6F16A142EF0084F0EC /* FaceBotHelper */,
+				B174BF6816A142EF0084F0EC /* Frameworks */,
+				B174BF6616A142EF0084F0EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B174BF6616A142EF0084F0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B174BF6516A142EF0084F0EC /* FaceBotHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B174BF6816A142EF0084F0EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B174BF6916A142EF0084F0EC /* Cocoa.framework */,
+				B174BF6B16A142EF0084F0EC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B174BF6B16A142EF0084F0EC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B174BF6C16A142EF0084F0EC /* AppKit.framework */,
+				B174BF6D16A142EF0084F0EC /* CoreData.framework */,
+				B174BF6E16A142EF0084F0EC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B174BF6F16A142EF0084F0EC /* FaceBotHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B174BF7B16A142EF0084F0EC /* AppDelegate.h */,
+				B174BF7C16A142EF0084F0EC /* AppDelegate.m */,
+				B174BF7E16A142EF0084F0EC /* MainMenu.xib */,
+				B174BF7016A142EF0084F0EC /* Supporting Files */,
+			);
+			path = FaceBotHelper;
+			sourceTree = "<group>";
+		};
+		B174BF7016A142EF0084F0EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B174BF7116A142EF0084F0EC /* FaceBotHelper-Info.plist */,
+				B174BF7216A142EF0084F0EC /* InfoPlist.strings */,
+				B174BF7516A142EF0084F0EC /* main.m */,
+				B174BF7716A142EF0084F0EC /* FaceBotHelper-Prefix.pch */,
+				B174BF7816A142EF0084F0EC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B174BF6416A142EF0084F0EC /* FaceBotHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B174BF8316A142EF0084F0EC /* Build configuration list for PBXNativeTarget "FaceBotHelper" */;
+			buildPhases = (
+				B174BF6116A142EF0084F0EC /* Sources */,
+				B174BF6216A142EF0084F0EC /* Frameworks */,
+				B174BF6316A142EF0084F0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBotHelper;
+			productName = FaceBotHelper;
+			productReference = B174BF6516A142EF0084F0EC /* FaceBotHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B174BF5C16A142EF0084F0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Sang-jun Jung";
+			};
+			buildConfigurationList = B174BF5F16A142EF0084F0EC /* Build configuration list for PBXProject "FaceBotHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B174BF5A16A142EF0084F0EC;
+			productRefGroup = B174BF6616A142EF0084F0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B174BF6416A142EF0084F0EC /* FaceBotHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B174BF6316A142EF0084F0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B174BF7416A142EF0084F0EC /* InfoPlist.strings in Resources */,
+				B174BF7A16A142EF0084F0EC /* Credits.rtf in Resources */,
+				B174BF8016A142EF0084F0EC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B174BF6116A142EF0084F0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B174BF7616A142EF0084F0EC /* main.m in Sources */,
+				B174BF7D16A142EF0084F0EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B174BF7216A142EF0084F0EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B174BF7316A142EF0084F0EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B174BF7816A142EF0084F0EC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B174BF7916A142EF0084F0EC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B174BF7E16A142EF0084F0EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B174BF7F16A142EF0084F0EC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B174BF8116A142EF0084F0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B174BF8216A142EF0084F0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B174BF8416A142EF0084F0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBotHelper/FaceBotHelper-Prefix.pch";
+				INFOPLIST_FILE = "FaceBotHelper/FaceBotHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B174BF8516A142EF0084F0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FaceBotHelper/FaceBotHelper-Prefix.pch";
+				INFOPLIST_FILE = "FaceBotHelper/FaceBotHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B174BF5F16A142EF0084F0EC /* Build configuration list for PBXProject "FaceBotHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B174BF8116A142EF0084F0EC /* Debug */,
+				B174BF8216A142EF0084F0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B174BF8316A142EF0084F0EC /* Build configuration list for PBXNativeTarget "FaceBotHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B174BF8416A142EF0084F0EC /* Debug */,
+				B174BF8516A142EF0084F0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B174BF5C16A142EF0084F0EC /* Project object */;
+}
